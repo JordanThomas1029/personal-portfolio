@@ -11,7 +11,7 @@
 
 
 
-body {
+main {
     background: url(images/portfolio-background.jpg);
     background-size: cover;
     background-position: center;
@@ -60,7 +60,7 @@ body {
 }
 
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -102,5 +102,41 @@ header ul li a{
     font-weight: 600;
 }
 
+.heading{
+    color: #111;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+ 
+}
+
+.heading h2{
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.landing{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+
+
+
+    
+}
+
+.contentBox h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+img{
+   max-width: 100%;
+   margin-left: 20px;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
 
 
